@@ -15,7 +15,8 @@ class Book extends Component {
                     width: 120,
                     height: 190,
                     backgroundImage:
-                    `url(${book.imageLinks.thumbnail})`,
+                    `url(${book.imageLinks &&
+                      book.imageLinks.thumbnail})`,
                   }}
                 />
                 <BookshelfShifter book={book} shelf={shelf} onMove={onMove}/>
