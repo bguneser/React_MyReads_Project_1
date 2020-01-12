@@ -5,7 +5,7 @@ class GoToFindBookButton extends Component {
 
     render(){
         return(  <div className="open-search">
-        <Link to="find"> 
+        <Link to="search"> 
         <button >Add a Book</button>
         </Link>
     </div>)
